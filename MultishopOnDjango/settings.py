@@ -26,7 +26,7 @@ SECRET_KEY = '!fk)t378+x2z%miamcu49q)d5l04l^8@fl5re0qk)gz+xovzze'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -143,7 +143,6 @@ STATIC_URL = '/static/'
 
 PHONENUMBER_DB_FORMAT = 'E164'
 
-CORS_ORIGIN_ALLOW_ALL = True
 
 JET_THEMES = [
     {
@@ -177,3 +176,6 @@ JET_THEMES = [
         'title': 'Light Gray'
     }
 ]
+
+# Activate Django-Heroku.
+django_heroku.settings(locals())
