@@ -1,0 +1,1 @@
+web: gunicorn MultishopOnDjango.wsgi --log-file -
