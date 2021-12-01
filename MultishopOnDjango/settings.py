@@ -41,17 +41,18 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'customer.apps.CustomerConfig',
-    'product.apps.ProductConfig',
-    'category.apps.CategoryConfig',
-    'dealer.apps.DealerConfig',
-    'sales.apps.SalesConfig',
-    'orders.apps.OrdersConfig',
+    'customer',
+    'product',
+    'category',
+    'dealer',
+    'sales',
+    'orders',
     
     # Third party apps
     'simple_history',
     'phonenumber_field',
     'djmoney',
+    'reports',
 ]
 
 MIDDLEWARE = [

@@ -1,5 +1,8 @@
 from django.contrib import admin
+from reports.base import reports
+
 from .models import Customer
+from .reports import CustomerReport
 
 
 class CustomerAdmin(admin.ModelAdmin):
@@ -8,4 +11,5 @@ class CustomerAdmin(admin.ModelAdmin):
     search_fields = ['first_name', 'email', 'identity']
 
 
-admin.site.register(Customer, CustomerAdmin)
+admin.site.register(Customer, CustomerAdmin),
+reports.register(Customer, CustomerReport)
