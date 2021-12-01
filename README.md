@@ -59,13 +59,13 @@ Luego salimos del directorio *scripts* y del entorno virtual *prueba* ya que lo 
 
 ## Instalación
 
-Procedemos a descargar el proyecto desde el repositorio de GitHub [Viesca 2000 Recursos Humanos](https://github.com/InNominePatris/Human-Resources) en la pestaña `clone or download` descargamos el proyecto como archivo `.zip` dando click en `Download zip` . Procedemos a descomprimir y tendremos una carpeta de nombre `Human-Resources`
+Procedemos a descargar el proyecto desde el repositorio de GitHub [MultishopOnDjango](https://github.com/InNominePatris/MultishopOnDjango/tree/master) en la pestaña `clone or download` descargamos el proyecto como archivo `.zip` dando click en `Download zip` . Procedemos a descomprimir y tendremos una carpeta de nombre `Human-Resources`
 
-- Volvemos a la consola de comandos. Ya con nuestro entorno virtual activado `(prueba)` navegamos a la carpeta proyecto ya descargada `Human-Resources`. Nuestra dirección en la línea de comandos se verá de la siguiente manera: `(prueba) C:\Users\lenovo\Desktop\Human-Resources>`
+- Volvemos a la consola de comandos. Ya con nuestro entorno virtual activado `(prueba)` navegamos a la carpeta proyecto ya descargada `MultishopOnDjango`. Nuestra dirección en la línea de comandos se verá de la siguiente manera: `(prueba) C:\Users\lenovo\Desktop\MultishopOnDjango>`
 
 ## Configuración del proyecto
 
-Ya con Python instalado, la base de datos en PostgreSQL `base` y nuestro entorno virtual activado ademas ya dentro de la carpeta del proyecto que descargamos llamada `Human-Resources` procedemos a trabajar sobre las configuraciones propias de Django para poner en funcionamiento el proyecto.
+Ya con Python instalado, la base de datos en PostgreSQL `base` y nuestro entorno virtual activado ademas ya dentro de la carpeta del proyecto que descargamos llamada `MultishopOnDjango` procedemos a trabajar sobre las configuraciones propias de Django para poner en funcionamiento el proyecto.
 
 Siguiendo dentro de nuestro directorio procedemos a instalar Django y todas las librerías correspondientes contenidas en el archivo `.txt` de nombre *requirements* mediante el comando:
 
@@ -76,7 +76,7 @@ pip install -r requirements.txt
 
 Y automáticamente nuestras librerías de terceros e incluyendo Django se instalarán dentro de nuestro proyecto.
 
-Siguiendo en la misma ruta `(prueba) C:\Users\lenovo\Desktop\Human-Resources> ` procederemos a ejecutar las migraciones de nuestro proyecto mediante dos comandos en orden:
+Siguiendo en la misma ruta `(prueba) C:\Users\lenovo\Desktop\MultishopOnDjango> ` procederemos a ejecutar las migraciones de nuestro proyecto mediante dos comandos en orden:
 
 ```
 
@@ -113,14 +113,3 @@ Quit the server with CTRL-BREAK.
 **_Dando click sobre la dirección `http://127.0.0.1:8000/` y luego de la `/` agregándole la plabra `admin` nuestro sitio comenzará a funcionar mostrándonos de entrada el Login del sistema en pantalla. La dirección final a ingresar en el navegador luego de estar corriendo el servidor sería `http://127.0.0.1:8000/admin`._**
 
 **En el login ingresamos el nombre de usuario y contraseña anteriormente creados y  nuestro sistema _funcionará con nomalidad_ sin ningún problema.**
-
-
-
-
-
-
-
-
-
-
-
